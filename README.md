@@ -15,6 +15,25 @@ Viewpoint-Aware Pose Estimation Framework is a real-time 6-DOF (6 Degrees of Fre
 
 ---
 
+## Example Scenarios
+
+Below are sample images illustrating various input conditions the system handles:
+
+| Sample | Description |
+|--------|-------------|
+| ![far_sample](far_sample.png) | **Far-distance Input** — Target aircraft captured from a long range |
+| ![matching_example](matching_example.png) | **Feature Matching** — Keypoint correspondence between anchor and input |
+| ![blur_situation](blur_situation_input_sample.png) | **Blur / Harsh Condition** — Motion-blurred or degraded input frame |
+
+## Demo Videos
+
+| Video | Description |
+|-------|-------------|
+| [demo_concept_harsh_condition.mp4](demo_concept_harsh_condition.mp4) | Pose estimation running under harsh visual conditions (blur, lighting changes) |
+| [outdoor_simple_test_example.mp4](outdoor_simple_test_example.mp4) | Basic outdoor flight test with real-time pose overlay |
+
+---
+
 ## System Architecture
 
 ```
